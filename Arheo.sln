@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arheo", "Arheo\Arheo.csproj", "{F759A666-813E-4E62-A530-2B099F31AC32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arheo.UI", "Arheo.UI\Arheo.UI.csproj", "{83DBF1E9-8C99-47C0-B4B2-5F42B9A5E98E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arheo.Domain", "Arheo.Domain\Arheo.Domain.csproj", "{28B3EDD0-9D6D-4216-A8E9-4BF37B362B14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arheo.Application", "Arheo.Application\Arheo.Application.csproj", "{B1374183-6224-4CA0-9532-201F47FE4BED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arheo.Infrastructure", "Arheo.Infrastructure\Arheo.Infrastructure.csproj", "{95A692C9-A8A7-4F05-BDD9-9C07ADA77425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F759A666-813E-4E62-A530-2B099F31AC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F759A666-813E-4E62-A530-2B099F31AC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F759A666-813E-4E62-A530-2B099F31AC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F759A666-813E-4E62-A530-2B099F31AC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DBF1E9-8C99-47C0-B4B2-5F42B9A5E98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DBF1E9-8C99-47C0-B4B2-5F42B9A5E98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DBF1E9-8C99-47C0-B4B2-5F42B9A5E98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DBF1E9-8C99-47C0-B4B2-5F42B9A5E98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B3EDD0-9D6D-4216-A8E9-4BF37B362B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B3EDD0-9D6D-4216-A8E9-4BF37B362B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B3EDD0-9D6D-4216-A8E9-4BF37B362B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B3EDD0-9D6D-4216-A8E9-4BF37B362B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1374183-6224-4CA0-9532-201F47FE4BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1374183-6224-4CA0-9532-201F47FE4BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1374183-6224-4CA0-9532-201F47FE4BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1374183-6224-4CA0-9532-201F47FE4BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A692C9-A8A7-4F05-BDD9-9C07ADA77425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A692C9-A8A7-4F05-BDD9-9C07ADA77425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A692C9-A8A7-4F05-BDD9-9C07ADA77425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A692C9-A8A7-4F05-BDD9-9C07ADA77425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

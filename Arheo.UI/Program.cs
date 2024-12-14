@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Arheo
+namespace Arheo.UI
 {
     internal static class Program
     {

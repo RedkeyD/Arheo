@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Arheo.Properties
+namespace Arheo.UI.Properties
 {
 
 

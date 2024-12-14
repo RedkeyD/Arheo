@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "Arheo" )]
+[assembly: AssemblyTitle( "Arheo.UI" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "Arheo" )]
+[assembly: AssemblyProduct( "Arheo.UI" )]
 [assembly: AssemblyCopyright( "Copyright ©  2024" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible( false )]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid( "f759a666-813e-4e62-a530-2b099f31ac32" )]
+[assembly: Guid( "83dbf1e9-8c99-47c0-b4b2-5f42b9a5e98e" )]
 
 // Version information for an assembly consists of the following four values:
 //
